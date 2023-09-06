@@ -23,6 +23,8 @@ This template goes one step above the DeedyCV, and it uses **embedded links** to
 1. Compiles only with **XeTeX** and required **BibTex** for compiling publications and the .bib filetype.
 2. Uses fonts that are usually only available to **Mac** users such as Helvetica Neue Light.
 
+## Accessability
+3. **Overleaf**.com (formerly **WriteLatex**.com) (v1 fonts/colors changed) - [Make copy of template]([https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18](https://www.overleaf.com/read/jysqsxwtfrnr))
 
 ## Known Issues:
 1. Overflows onto second page if any column's contents are more than the vertical limit
