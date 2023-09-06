@@ -1,4 +1,4 @@
-Ali-Resume
+SWE-Resume-Template - By Aahil Ali
 =========================
 
 ## Motivation
