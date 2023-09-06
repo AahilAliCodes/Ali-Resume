@@ -3,7 +3,7 @@ Ali-Resume
 
 ## Motivation
 
-Inspiration for this project came from [**Deedy-Resume**]. (https://github.com/deedy/Deedy-Resume) and its unique, one-page, two-column method to aid engineers in passing the **Applicant Tracking System** (ATS) part of the job screening. Turns out, a lot of companies today search resumes based on [keywords](http://www.businessinsider.com/most-big-companies-have-a-tracking-system-that-scans-your-resume-for-keywords-2012-1) but at the same time require or prefer a one-page resume, especially for undergraduates. 
+Inspiration for this project came from [**Deedy-Resume**](https://github.com/deedy/Deedy-Resume) and its unique, one-page, two-column method to aid engineers in passing the **Applicant Tracking System** (ATS) part of the job screening. Turns out, a lot of companies today search resumes based on [keywords](http://www.businessinsider.com/most-big-companies-have-a-tracking-system-that-scans-your-resume-for-keywords-2012-1) but at the same time require or prefer a one-page resume, especially for undergraduates. 
 
 This template goes one step above the DeedyCV, and it uses **embedded links** to show a recruiter as much relevant information about you after the ATS tracking system looks for keywords. Once you get to a human reader, they can click on the embedded links that helps them learn more about you and your qualifications. This template **looks sharp**, italicizes **details**, is a **single page** format, and allows for useful **LaTeX templating**.
 
