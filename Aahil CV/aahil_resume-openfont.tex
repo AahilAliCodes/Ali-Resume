@@ -1,0 +1,176 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{aahil-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{plain}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Aahil}{Ali}{ \urlstyle{same}\href{mailto:ara0218@g.ucla.eduu}{Email} | \href{https://github.com/AahilAliCodes}{GitHub} | \href{https://www.linkedin.com/in/aahil-ali1}{LinkedIn} | 210.789.0319 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.60\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+\runsubsection{Back End Development |}
+\location{C++, Java, Go, NodeJs}
+\runsubsection{Front End Development |}
+\location{JavaScript, ReactJS, CSS, HTML }
+\runsubsection{Scripting |}
+\location{Unix Shell, Perl, Python }
+\runsubsection{Miscellaneous |}
+\location{Google Firebase, MongoDb, MySQL }
+\runsubsection{Soft Skills |}
+\location{Adaptive, Creative, Ambitious }
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+\runsubsection{Greater: SATX Regional Economic Partnership}
+\descript{Research Intern |\link{ \urlstyle{same}\href{https://drive.google.com/file/d/1cPq-2_FfY5kDgjb6nLj1luH9Y9RfQLZm/view?usp=sharing}{Reference}}} 
+\location{June 2021 - Sep 2021 | San Antonio, TX}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Using \textit{Microsoft SQL} server databases, I \textit{accessed} and \textit{integrated} economic information such as the Consumer Price Index (CPI) and GDP per capita for the Council for Community and Economic Research (C2ER) "Cost of Living Index" and \textit{conducted} pooled \textit{cross-sectional data analysis} on 66 zip codes.
+\item \textit{Increased database access efficiency by 25\%} by creating indexed views on SQL server tables.
+\item Wrote a script that was used to identify opportunity zones, retail comparison, merchandise mix evaluations, and customer segmentation and targeting for corporate clients using the APIs of ArcGis and Esri.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Students of Service (SOS)}
+\newline
+\descript{User-Experience (UX) Intern }
+\location{May 2021 – Aug 2021 | San Antonio, TX}
+\begin{tightemize}
+\item Used \textit{HTML structuring and CSS visual design} in the open-source front-end JavaScript library, \textit{React}, to refine previous website iterations and build interactive new user interfaces. 
+\item Brainstormed and drafted numerous versions of an informative and modern website using the \textit{Figma interface design API}.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{Black Hole Simulation}
+\descript{|\link{ \urlstyle{same}\href{https://github.com/AahilAliCodes/BlackHoleSim/tree/main}{Source Code}} |\link{ \urlstyle{same}\href{https://drive.google.com/file/d/1kLAggeo_ii7N6PtGqv544wN6vg793ZQ4/view?usp=sharing}{Paper}} } 
+\location{}
+% \location{2023}
+Leveraging principles derived from \textit{applied physics theories} such as Newtonian gravity, Conservation of Energy, and the Schwarzschild Radius, I used \textit{JavaScript} to debunk the physics behind Gargantua in \textit{Interstellar (2015)}.
+\sectionsep
+
+\runsubsection{SpotifyBuds}
+\descript{|\link{ \urlstyle{same}\href{https://github.com/ArjunNair17/SpotifyAppCS35L}{Source Code}} | \location{2023}} 
+% \location{2023}
+Designed and implemented a \textit{full-stack web application} that transforms Spotify into a social platform, enabling users to connect, communicate, and discover new music from people nearby with precision.
+\sectionsep
+
+\runsubsection{Peach Party Game}
+\descript{|\link{ \urlstyle{same}\href{https://github.com/AahilAliCodes/PeachParty-2DVideoGame}{Source Code}} | \location{2023}} 
+% \location{2023}
+Developed a 2-player 2D board game from scratch using \textit{object-oriented programming} and \textit{data structures} in \textit{C++} to implement game mechanics;
+Game series.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.32\textwidth} 
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     EDUCATION
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection{UCLA}
+\descript{B.S in Computer Science}
+\location{2026 | Los Angeles, CA}
+Henry Samueli School of Engineering \\
+Cum. GPA: 3.2 / 4.0 \\
+\hfill
+
+\subsection{Columbia University}
+\descript{Academic Year Immersion Program: Entrepreneurship and Innovation}
+\location{Spring 2021 | New York, NY}
+The School of Professional Studies \\
+Top 5\% |\link{ \urlstyle{same}\href{https://drive.google.com/file/d/1uZnCszG74zWhS7RJGTgndXp6BS-9TNlj/view?usp=sharing}{Reference} \\
+\sectionsep
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     COURSEWORK
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Undergraduate}
+\location{}
+Software Construction \\
+Computer Organization and Systems \\
+Logic Design of Digital Systems \\
+Data Abstraction and Problem Solving with C++ \\
+Discrete Structures \\
+Calculus of Several Variables\\
+\sectionsep
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     Awards
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\descript{Future Business Leaders of America}
+\descript{[Computer Problem Solving]}
+\textit{2nd Place} - Area 4 Virtual Leadership Competition
+\newline
+\textit{4th Place} - State Leadership Conference 
+\newline
+\textit{National Semi-Finalist} - National Leadership Conference
+\sectionsep
+\newline
+\descript{CyberPatriot}
+\textit{Top 10\%} Cisco Networking Challenge and Packet Tracer - \textit{Gold Tier}
+\sectionsep
+
+\section{Intrests} 
+Artificial Intelligence, Algorithmic Trading,  Full-Stack App Development, Fitness, Music \\
+\sectionsep
+
+\end{minipage}
+\end{document}  \documentclass[]{article}
